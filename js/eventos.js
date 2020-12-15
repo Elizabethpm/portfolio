@@ -119,4 +119,17 @@ $(document).ready(function () {
     $("#seleccionTema5").hide();
     $("#elegirTema").show();
   });
+
+  //Scroll para subir al inicio de la web
+  $(".btn-subir").click(function (e) {
+    e.preventDefault();
+    $("html, body").animate(
+      {
+        scrollTop: 0,
+      },
+      800
+    );
+
+    return false;
+  });
 });
