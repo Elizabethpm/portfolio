@@ -529,3 +529,28 @@ hr {
   color: white;
   font-size: 15px;
 }
+
+.btn-subir {
+    display: block;
+    padding: 20px 24px;
+    background-color: #add8e6;
+    margin: 0px auto;
+    margin-top: 83px;
+    width: 11%;
+    position: relative;
+    top: -69px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    line-height: 36px;
+    transition: all 300ms;
+}
+
+.btn-subir:hover{
+    background-color:#3ca9ce; 
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+}
