@@ -86,12 +86,12 @@ body {
 /*TEMAS ELEGIR*/
 
 #elegirTema {
-	max-width: 1497px;
-	margin: 0px auto;
-	background-color: white;
-	border: 1px solid #ccc !important;
-	margin-bottom: 40px;
-	box-shadow: 0px 0px 10px;
+  max-width: 1497px;
+  margin: 0px auto;
+  background-color: white;
+  border: 1px solid #ccc !important;
+  margin-bottom: 40px;
+  box-shadow: 0px 0px 10px;
 }
 
 .temaselg {
@@ -113,8 +113,8 @@ body {
 }
 
 .temaselg:hover {
-    border: 1px solid rgb(223, 116, 116);
-    box-shadow: 0px 2px 20px rgb(223, 116, 116);
+  border: 1px solid rgb(223, 116, 116);
+  box-shadow: 0px 2px 20px rgb(223, 116, 116);
 }
 
 #mostrar1,
@@ -209,9 +209,9 @@ body {
 }
 
 #tema5 img {
-	display: block;
-	width: 100%;
-	height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .seleccionTema1 p {
@@ -230,11 +230,11 @@ body {
 /*SELECCION DE TEMA*/
 
 .temas {
-	display: block;
-	position: relative;
-	top: 26px;
-	width: 98%;
-	margin: 0px auto;
+  display: block;
+  position: relative;
+  top: 26px;
+  width: 98%;
+  margin: 0px auto;
 }
 
 /*FIN SELECCION DE TEMA*/
@@ -287,6 +287,19 @@ img {
   margin-top: 90px;
 }
 
+.ImgFibrastextiles h3,
+#textClasifi h3 {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 68px;
+}
+#textClasifi h3 {
+  display: block;
+  position: relative;
+  top: 29px;
+}
 .imagenesF img {
   display: block;
   width: 30%;
@@ -326,6 +339,15 @@ hr {
   margin-bottom: 40px;
 }
 
+#mezclas h3 {
+  display: block;
+  position: relative;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 #mezclas p {
   font-size: 19px;
   line-height: 44px;
@@ -338,6 +360,16 @@ hr {
 .imagenesTema2 img {
   display: block;
   width: 30%;
+}
+
+#mezclas hr {
+  display: block;
+  width: 99%;
+  margin: 0px auto;
+  position: relative;
+  top: 8px;
+  color: white;
+  margin-bottom: 47px;
 }
 
 .hr-tema2 {
@@ -358,6 +390,13 @@ hr {
   margin-top: 40px;
 }
 
+#elaboracionHilos h3 {
+  display: block;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
 #elaboracionHilos p {
   display: block;
   font-size: 18px;
@@ -376,12 +415,30 @@ hr {
   box-shadow: 0px 0px 10px black;
 }
 
+#elaboracionHilos hr {
+  display: block;
+  width: 99%;
+  margin: 0px auto;
+  position: relative;
+  top: 8px;
+  color: white;
+  margin-bottom: 47px;
+}
+
 /*TEMA 5*/
 
 #ligamentos {
   display: block;
   background-color: #6d5d64;
   margin-top: 40px;
+}
+
+#ligamentos h3 {
+  display: block;
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
 }
 
 #ligamentos p {
@@ -402,29 +459,38 @@ hr {
   margin-bottom: -78px;
 }
 
+#ligamentos hr {
+  display: block;
+  width: 90%;
+  margin: 0px auto;
+  position: relative;
+  top: -7px;
+  color: white;
+}
+
 /*VIDEOS*/
 
 #videosR {
-	display: block;
-	width: 100%;
-	margin: 0px auto;
-	/* margin-top: 47px; */
-	background-color: #b4a5a7;
-	height: 1397px;
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+  /* margin-top: 47px; */
+  background-color: #b4a5a7;
+  height: 1397px;
 }
 
 .videos h3 {
-	display: block;
-	position: relative;
-	left: -231px;
-	/* top: 35px; */
-	font-weight: bold;
-	/* margin-top: 20px; */
-	font-size: 25px;
-	line-height: 82px;
-	text-align: center;
-	color: white;
-	margin-top: 12px;
+  display: block;
+  position: relative;
+  left: -231px;
+  /* top: 35px; */
+  font-weight: bold;
+  /* margin-top: 20px; */
+  font-size: 25px;
+  line-height: 82px;
+  text-align: center;
+  color: white;
+  margin-top: 12px;
 }
 
 .videos {
@@ -434,32 +500,32 @@ hr {
 }
 
 .general {
-	display: block;
-	width: 200px;
-	height: 200px;
-	font-size: 25px;
-	margin: 0px auto;
-	font-family: "OpenSans-Bold";
-	text-align: center;
-	position: relative;
-	border: black;
-	box-shadow: 2px 2px 10px black;
-	top: 176px;
-	/* line-height: 0px; */
-	color: white;
-	left: -21px;
-	line-height: -50px !important;
-	padding: 20px;
+  display: block;
+  width: 200px;
+  height: 200px;
+  font-size: 25px;
+  margin: 0px auto;
+  font-family: "OpenSans-Bold";
+  text-align: center;
+  position: relative;
+  border: black;
+  box-shadow: 2px 2px 10px black;
+  top: 176px;
+  /* line-height: 0px; */
+  color: white;
+  left: -21px;
+  line-height: -50px !important;
+  padding: 20px;
 }
 
 .general p {
-	line-height: 35px;
-	position: relative;
-	top: -50px;
+  line-height: 35px;
+  position: relative;
+  top: -50px;
 }
 
-.logo{
-    display: block;
-    color: white;
-    font-size: 15px;
+.logo {
+  display: block;
+  color: white;
+  font-size: 15px;
 }
