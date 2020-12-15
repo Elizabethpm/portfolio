@@ -210,9 +210,8 @@ body {
 #tema5 img {
   display: block;
   width: 100%;
-  height: 276px;
+  height: 302px;
 }
-
 .seleccionTema1 p {
   text-align: center;
   line-height: 930px;
@@ -586,22 +585,20 @@ hr {
   color: white;
 }
 
-
 .animado {
-    opacity: 0;
-    transition: all 0.1s;
+  opacity: 0;
+  transition: all 0.1s;
+}
+
+.mostrarArriba {
+  animation: mostrarArriba 1s;
+}
+
+@keyframes mostrarArriba {
+  0% {
+    transform: translateY(150px);
   }
-  
-  .mostrarArriba {
-    animation: mostrarArriba 1s;
+  100% {
+    transform: translateY(0);
   }
-  
-  @keyframes mostrarArriba {
-    0% {
-      transform: translateY(150px);
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
-  
+}
