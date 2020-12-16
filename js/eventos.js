@@ -113,7 +113,7 @@ $(document).ready(function () {
     $("#header").show();
   });
 
-  //Tema5
+  //Tema6
   $("#mostrar6").click(function () {
     $("#seleccionTema6").show();
     $("#seleccionTema1").hide();
@@ -126,7 +126,7 @@ $(document).ready(function () {
   });
 
   $("#ocultar6").click(function () {
-    $("#seleccionTema5").hide();
+    $("#seleccionTema6").hide();
     $("#elegirTema").show();
     $("#header").show();
   });
