@@ -10,6 +10,7 @@
 
   #elegirTema {
     width: 98%;
+    height: 920px;
   }
 
   .temaselg {
@@ -17,6 +18,61 @@
     padding: 28px;
     position: relative;
     left: 36px;
+  }
+
+  .imagenesF img {
+    width: 28%;
+    float: left;
+    margin: 13px;
+    padding: 9px;
+    position: relative;
+    left: 45px;
+  }
+
+  h4 {
+    left: 241px;
+    bottom: 1px;
+  }
+
+  .imagenesTema2 img {
+    width: 27%;
+    position: relative;
+    left: 72px;
+  }
+}
+
+@media (max-width: 1418px) {
+  .img-elegirtema img {
+    height: 295px;
+  }
+
+  #tema5 img {
+    height: 276px;
+  }
+
+  img {
+    height: 271px;
+  }
+}
+
+@media (max-width: 1409px) {
+  #header #menu ul li a {
+    left: -18px;
+
+    padding: 14px;
+    font-size: 19px;
+
+    margin-top: 93px;
+  }
+
+  .temaselg {
+    margin: 19px;
+    padding: 25px;
+    left: 33px;
+  }
+
+  #elegirTema {
+    width: 98%;
   }
 }
 
@@ -34,7 +90,7 @@
   }
 
   #elegirTema {
-    width: 98%;
+    width: 97%;
   }
 
   .temaselg {
@@ -59,6 +115,22 @@
 
   .imagenesTema2 img {
     width: 28%;
+  }
+
+  h4 {
+    left: 209px;
+    bottom: 1px;
+    top: -5px;
+  }
+
+  #ocultar1,
+  #ocultar2,
+  #ocultar3,
+  #ocultar4,
+  #ocultar5,
+  #ocultar6 {
+    height: 57px;
+    left: 551px;
   }
 }
 
@@ -92,3 +164,113 @@
     left: 199px;
   }
 }
+
+@media (max-width: 1352px) {
+  .temaselg {
+    margin: 33px;
+    padding: 23px;
+
+    position: relative;
+    left: 25px;
+  }
+
+  #header #menu ul li a {
+    left: -33px;
+
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 1320px) {
+  .temaselg {
+    margin: 33px;
+    padding: 23px;
+
+    position: relative;
+    left: 25px;
+  }
+
+  #header #menu ul li a {
+    left: -33px;
+
+    font-size: 19px;
+  }
+  .temaselg {
+    margin: 16px;
+    padding: 23px;
+    position: relative;
+    left: 53px;
+    top: 31px;
+  }
+
+  #header #menu ul li a {
+    left: -81px;
+
+    padding: 8px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1258px) {
+  #header #menu ul li a {
+    left: -30px;
+  }
+
+  .temaselg {
+    left: 14px;
+  }
+
+  #elegirTema h2 {
+    font-size: 41px;
+    position: relative;
+    top: 11px;
+  }
+}
+
+@media (max-width: 1214px) {
+  #header #menu ul li a {
+    left: -30px;
+  }
+
+  .temaselg {
+    left: 14px;
+  }
+
+  #elegirTema h2 {
+    font-size: 41px;
+    position: relative;
+    top: 11px;
+  }
+
+  .temaselg {
+    margin: 12px;
+    padding: 22px;
+
+    left: 13px;
+  }
+}
+
+
+@media (max-width: 1214px) {
+    #header #menu ul li a {
+      left: -30px;
+    }
+  
+    .temaselg {
+      left: 14px;
+    }
+  
+    #elegirTema h2 {
+      font-size: 41px;
+      position: relative;
+      top: 11px;
+    }
+  
+    .temaselg {
+      margin: 12px;
+      padding: 22px;
+  
+      left: 13px;
+    }
+  }
+  
