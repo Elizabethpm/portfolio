@@ -1,3 +1,25 @@
+@media (max-width: 1471px) {
+  #header #menu ul li a {
+    left: -27px;
+
+    padding: 16px;
+    font-size: 19px;
+
+    top: 10px;
+  }
+
+  #elegirTema {
+    width: 98%;
+  }
+
+  .temaselg {
+    margin: 28px;
+    padding: 28px;
+    position: relative;
+    left: 36px;
+  }
+}
+
 @media (max-width: 1371px) {
   #header #menu ul li a {
     display: block;
@@ -68,5 +90,5 @@
 
   .videos {
     left: 199px;
-}
+  }
 }
